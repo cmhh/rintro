@@ -1,0 +1,14 @@
+README.html
+rintro.html
+rintro.nb.html
+rintro_solutions_files
+rintro_solutions_files/*
+rintro_solutions_cache
+rintro_solutions_cache/*
+rintro_solutions.html
+rintro_solutions.nb.html
+raw
+raw/*
+.Rproj.user
+.RData
+.Rhistory
