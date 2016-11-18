@@ -28,7 +28,7 @@ all of the packages on which these depend):
 * `shiny`
 * `rbenchmark`
 * `readr`
-* `readXL`
+* `readxl`
 * `haven`
 
 These can be installed all at once via:
@@ -36,7 +36,7 @@ These can be installed all at once via:
 ```r
 install.packages(c('rmarkdown', 'dplyr', 'ggplot2', 'reshape2', 'plotly',
                    'highcharter', 'sp', 'maps', 'leaflet', 'DT', 'shiny',
-                   'rbenchmark'))
+                   'rbenchmark', 'readr', 'readxl', 'haven'))
 ```
 
 ### Using the Material
