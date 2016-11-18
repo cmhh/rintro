@@ -27,6 +27,9 @@ all of the packages on which these depend):
 * `DT`
 * `shiny`
 * `rbenchmark`
+* `readr`
+* `readXL`
+* `haven`
 
 These can be installed all at once via:
 
