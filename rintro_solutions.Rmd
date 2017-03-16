@@ -3,12 +3,12 @@ title: "Introduction to R--Exercise Solutions"
 author: "Chris Hansen"
 date: "16/10/2016"
 output:
-  html_notebook:
+  html_document:
     self_contained: yes
     toc: yes
     toc_float: yes
+  html_notebook:
     code_folding: show
-  html_document:
     self_contained: yes
     toc: yes
     toc_float: yes

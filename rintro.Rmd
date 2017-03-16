@@ -3,12 +3,12 @@ title: "Introduction to R"
 author: "Chris Hansen"
 date: "16/10/2016"
 output:
-  html_document:
-    code_folding: show
+  html_notebook:
     self_contained: yes
     toc: yes
     toc_float: yes
-  html_notebook:
+  html_document:
+    code_folding: show
     self_contained: yes
     toc: yes
     toc_float: yes
@@ -68,6 +68,11 @@ After today you will:
 
 We have a fair bit to cover, so coverage will be intentionally light at times.
 Readers are encouraged to learn more about things independently as relevant.
+
+```{r}
+plot(AirPassengers)
+summary(AirPassengers)
+```
 
 
 ## RStudio Basics
@@ -171,6 +176,10 @@ by selecting Help&rarr;RStudio Docs from the file menu.
 
 R is made extensible by way of add-on packages.  To load a package called `foo`,
 simply run:
+
+```{r}
+plot(AirPassengers)
+```
 
 ```r
 library(foo)
@@ -353,7 +362,7 @@ data(package="datasets")
 ```
 ```{r}
 # default plot method for a data.frame
-plot(iris)
+ploaat(iris)
 ```
 
 Being a statistical language, R has a large number of common statistical
@@ -3212,7 +3221,7 @@ server <- function(input, output){
     n <- isolate(input$n)
     rnorm(n)
   })
-  
+  aaaaazz
   output$distplot <- renderPlot({
     hist(plotdata(), col="grey", border='white', 
          freq=FALSE, xlab="X", main="")
