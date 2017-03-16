@@ -69,11 +69,6 @@ After today you will:
 We have a fair bit to cover, so coverage will be intentionally light at times.
 Readers are encouraged to learn more about things independently as relevant.
 
-```{r}
-plot(AirPassengers)
-summary(AirPassengers)
-```
-
 
 ## RStudio Basics
 

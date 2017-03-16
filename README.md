@@ -47,3 +47,9 @@ done, browse to the folder in RStudio and click on the `rintro.Rproj` file to
 open the project.  Once the project is open, simply open the two markdown files
 `rintro.Rmd` and `rintro_solutions.Rmd`.  The first is the main document, the
 second contains solutions to exercises.
+
+Alternatively, I've left rendered HTML versions of the two markdown documents
+which can be downloaded and viewed directly if desired:
+
+* [rintro.html](https://github.com/cmhh/rintro/raw/master/rintro.html)
+* [rintro_solutions.html](https://github.com/cmhh/rintro/raw/master/rintro_solutions.html)
